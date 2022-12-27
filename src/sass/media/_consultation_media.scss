@@ -1,0 +1,23 @@
+@media (max-width: 1200px) {
+    .consultation {
+        padding: 100px 50px 92px 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .consultation {
+        min-height: 640px;
+        padding: 70px 50px 32px 50px;
+        &__descr {
+            margin-top: 55px;
+            font-size: 19px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .consultation {
+        width: 100%;
+        padding: 70px 20px 70px 20px;
+    }
+}

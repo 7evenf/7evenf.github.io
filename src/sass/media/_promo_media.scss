@@ -1,11 +1,11 @@
-@media (max-width: 991px) {
+@media (max-width: 1200px) {
     .promo {
         padding: 21px 50px 93px 50px;
     }
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     .promo {
         padding: 21px 50px 73px 50px;
         &__header {
@@ -15,6 +15,30 @@
         &__subheader {
             margin-top: 10px;
             font-size: 17px
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .promo {
+        min-height: 400px;
+        padding: 21px 50px 50px 50px;
+        &__wrapper {
+            margin-top: 50px;
+        }
+        &__headear {
+            font-size: 32px;
+        }
+        &__icons {
+            margin-top: 35px;
+            width: 320px;
+        }
+        &__icon {
+            font-size: 11px;
+        }
+        &__link {
+            margin-top: 8px;
+            font-size: 11px;
         }
     }
 }
