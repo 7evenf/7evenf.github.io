@@ -1,0 +1,43 @@
+@media (max-width: 991px) {
+    .promo {
+        padding: 21px 50px 93px 50px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .promo {
+        padding: 21px 50px 73px 50px;
+        &__header {
+            margin-bottom: 0;
+            font-size: 30px;
+        }
+        &__subheader {
+            margin-top: 10px;
+            font-size: 17px
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .promo {
+        min-height: 400px;
+        padding: 21px 20px 50px 20px;
+        &__header {
+            text-align: end;
+        }
+        &__subheader {
+            text-align: end;
+        }
+        &__icons {
+            width: 100%;
+        }
+        &__icon {
+            font-size: 11px;
+        }
+        &__link {
+            margin-top: 12px;
+            font-size: 11px;
+        }
+    }
+}
