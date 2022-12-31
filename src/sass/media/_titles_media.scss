@@ -19,3 +19,11 @@
         }
     }
 }
+
+@media (max-width: 575px) {
+    .title {
+        &_clients {
+            font-size: 25px;
+        }
+    }
+}
