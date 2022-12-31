@@ -28,6 +28,7 @@
 
 @media (max-width: 767px) {
     .carousel {
+        height: 600px;
         &__inner {
             width: 100%;
         }
@@ -62,13 +63,25 @@
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
     .carousel {
-        height: 300px;
+        height: 350px;
         .slick-slide {
             img {
                 border-radius: 2%;
             }
         }
+    }
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+    .carousel {
+        height: 450px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 575px) {
+    .carousel {
+        height: 550px;
     }
 }
