@@ -9,21 +9,37 @@
     width: 150px;
     height: 30px;
     font-size: 12px;
+    transition: 0.5s all;
+    &:hover {
+        box-shadow: 3px 3px 20px $main-color;
+    }
     }
     &_main {
         margin-top: 68px;
         width: 300px;
         height: 50px;
         font-size: 16px;
+        transition: 0.5s all;
+        &:hover {
+            box-shadow: 3px 3px 20px $main-color;
+        }
     }
     &_submit {
         width: 100%;
         height: 55px;
         font-size: 16px;
+        transition: 0.5s all;
+        &:hover {
+            box-shadow: 3px 3px 20px #000;
+        }
     }
     &_mini {
         width: 131px;
         height: 40px;
         font-size: 14px;
+        transition: 0.5s all;
+        &:hover {
+            box-shadow: 3px 3px 20px $main-color;
+        }
     }
 }
